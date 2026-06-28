@@ -20,4 +20,5 @@
 - [006 训练](006-training.md)
 - [007 后训练](007-post-training.md)
 - [008 checkpoint](008-checkpoint.md)
+- [009 测试与评估](009-testing-and-evaluation.md)
 

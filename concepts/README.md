@@ -13,4 +13,6 @@
 
 当前包含：
 
+- [理论迁移清单](theory-migration-list.md)
+- [核心概念](core/)
 - [经验](experience/)
