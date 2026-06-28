@@ -14,8 +14,26 @@
 
 
 # 基本结构
-案例名:
-    materials: 存放上下文训练过程中使用的材料。
+
+```text
+案例名/
+  README.md
+  training-plan.md
+  training-targets.md
+  labels.md
+  materials/
+  outputs/
+  checkpoint/
+```
+
+说明：
+
+- `training-plan.md`：训练计划与训练流程。
+- `training-targets.md`：训练目标。
+- `labels.md`：人工标注与偏好记录。
+- `materials/`：上下文训练过程中使用的材料。
+- `outputs/`：模型输出记录。
+- `checkpoint/`：案例内部的阶段性版本记录。
 
 # 案例：
 
