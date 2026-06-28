@@ -12,12 +12,15 @@
 并将其用在agent的应用工程上,并期望以一种严谨、可控、有效的方式提升模型性能而非靠"感觉"的迭代方法;
 
 该项目将持续迭代,并在实践生产中不断吸取该方向上的,行业内的各种方法并融合到自身;
+
 ## 前置归属方向
+
 - 非参数调整模型训练:
     - 上下文训练:
         - 方法论
 
 ## 后置应用方向
+
 - skill训练
 - skill进化
 - 自迭代skill
@@ -27,14 +30,33 @@
 - agent的跨领域融合工程
 ...
 
+## 目录
 
+```text
+Context Learning/
+  README.md                 # 项目介绍与入口
+  process/                  # 已沉淀的上下文训练流程
+  concepts/                 # 名字解释、核心思想、经验与引用
+  cases/                    # 具体上下文训练案例
+  notes/                    # 暂存材料、草稿、未稳定流程
+  tool/                     # 配套工具设想
+```
 
-todo:目录
-...
+### 主要入口
 
-
+- [流程](process/README.md)
+- [理论](concepts/README.md)
+- [案例](cases/README.md)
+- [测试流程草稿](notes/process/testing-flow.md)
+- [可视化工具设想](tool/visualization.md)
 
 
 ## 配套工具
-todo:
-可视化工具
+
+- [可视化工具](tool/visualization.md)
+
+## 计划
+- 基于扩散发现与节点收敛的 /compcat 强化;
+
+- 基于命令行的可视化工具
+    - 基于命令行的训练用的可视化工具

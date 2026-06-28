@@ -1,4 +1,5 @@
 # checkpoint
+
 该概念取自 模型训练 过程中的 训练结果保存
 
 checkpoint 至少保留：
