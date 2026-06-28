@@ -1,65 +1,40 @@
 # Context Learning
 
-这是一个围绕“上下文学习 / 静态上下文训练”的文档项目。
+## 前言
+包括skill在内,自2025年中期,从openclaw,hermes到如今2026年中期,以skill为首的 "静态上下文" 迭代训练越发的普及。本文将介绍一套基础的 "静态上下文" 训练方法,以试图规范从过去到现在的,包括skill在内的上下文学习范式;本内容并做不作为所有上下文学习替代品,而是统一必要的基础框架,使得关于讨论上下文学习领域有一个基础的共识,并在后续未来可能存在的"动态上下文学习"或其他属于上下文学习领域发展;
 
-当前目标不是填充大量内容，而是把已有材料整理成可持续迭代的结构。
+## 介绍
+这是一套方法论,适用于任意的含上下文学习的任何内容形式,而非唯一指标;
 
-## 文档入口
+它解决这样子的一组问题,即如何通过标准的、可量化、可复刻的科学训练标准过程将基于大语言模型的生成内容质量低,过拟合,无量化的不可靠感觉式训练转化为稳定可持续的生成过程;
 
-- [主文档](document.md)
-- [概念层](concepts/README.md)
-- [上下文训练流程](process/README.md)
-- [测试流程](notes/process/testing-flow.md)
-- [algo-coach 训练案例](cases/algo-coach/README.md)
-- [计划表](notes/plan.md)
+我们期望通过向"实验室实验"与"机器学习"这两个领域中的思想概念中学习;
+并将其用在agent的应用工程上,并期望以一种严谨、可控、有效的方式提升模型性能而非靠"感觉"的迭代方法;
 
-## 当前结构
+该项目将持续迭代,并在实践生产中不断吸取该方向上的,行业内的各种方法并融合到自身;
+## 前置归属方向
+- 非参数调整模型训练:
+    - 上下文训练:
+        - 方法论
 
-```text
-Context Learning/
-  README.md
-  document.md
-  concepts/
-    README.md
-    001-overview.md
-    002-context-training.md
-    003-boundaries.md
-    004-training-signals.md
-    005-visualization.md
-  process/
-    README.md
-    001-basic-flow.md
-    002-dataset-and-preparation.md
-    003-training-process-and-parameters.md
-    004-training-targets.md
-    005-data-labeling.md
-    006-training.md
-    007-post-training.md
-    008-checkpoint.md
-  cases/
-    README.md
-    algo-coach/
-      README.md
-      training-plan.md
-      training-targets.md
-      labels.md
-      materials/
-        README.md
-      outputs/
-      checkpoint/
-  notes/
-    plan.md
-    checkpoint.md
-    process/
-      README.md
-      testing-flow.md
-```
+## 后置应用方向
+- skill训练
+- skill进化
+- 自迭代skill
+- 自动化模型上下文训练
+- 从人类偏好学习
+- 可稳定复刻迭代
+- agent的跨领域融合工程
+...
 
-## 当前整理原则
 
-- 主文档保留方法论主线。
-- 流程层从主文档拆出，单独放入 process。
-- 案例独立出来，避免主方法论被具体案例拉偏。
-- 案例材料放在案例内部，避免材料和方法论混在一起。
-- 尚未稳定的方法流程先放入 notes，等待后续沉淀。
-- checkpoint 相关方法先放入 notes，案例自己的 checkpoint 放入案例目录内部。
+
+todo:目录
+...
+
+
+
+
+## 配套工具
+todo:
+可视化工具
