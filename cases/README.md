@@ -8,8 +8,6 @@
 - 训练目标
 - 训练数据集
 - 标注记录
-- 输出对比
-- checkpoint
 - 最终效果
 
 
@@ -22,8 +20,6 @@
   training-targets.md
   labels.md
   materials/
-  outputs/
-  checkpoint/
 ```
 
 说明：
@@ -32,8 +28,6 @@
 - `training-targets.md`：训练目标。
 - `labels.md`：人工标注与偏好记录。
 - `materials/`：上下文训练过程中使用的材料。
-- `outputs/`：模型输出记录。
-- `checkpoint/`：案例内部的阶段性版本记录。
 
 # 案例：
 

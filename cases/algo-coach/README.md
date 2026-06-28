@@ -26,6 +26,4 @@ algo-coach是建立在operator-knowledge基础上做特化蒸馏,目的是辅助
 - [训练目标](training-targets.md)
 - [训练计划](training-plan.md)
 - [材料](materials/README.md)
-- [输出记录](outputs/)
 - [标注记录](labels.md)
-- [checkpoint](checkpoint/)

@@ -38,7 +38,6 @@ Context Learning/
   process/                  # 已沉淀的上下文训练流程
   concepts/                 # 名字解释、核心思想、经验与引用
   cases/                    # 具体上下文训练案例
-  notes/                    # 暂存材料、草稿、未稳定流程
   tool/                     # 配套工具设想
 ```
 
@@ -47,7 +46,6 @@ Context Learning/
 - [流程](process/README.md)
 - [理论](concepts/README.md)
 - [案例](cases/README.md)
-- [测试流程草稿](notes/process/testing-flow.md)
 - [可视化工具设想](tool/visualization.md)
 
 
