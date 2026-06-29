@@ -55,3 +55,10 @@
 它不直接负责修改上下文，而是为后续训练提供运行边界。真正的上下文修改发生在训练阶段；具体测试方法和评估细节则在测试与评估阶段展开。
 
 一个好的训练计划不要求一开始就非常严密。早期可以先做临时实验，用来校准测试方式和评价维度。等流程稳定后，再逐步固化成可复用模板。
+
+## 引用
+
+- [`训练目标`](../concepts/core/005-training-target.md)
+- [`训练方向`](../concepts/core/006-training-direction.md)
+- [`训练信号`](../concepts/core/004-训练信号.md)
+- [`checkpoint`](005-training.md#checkpoint)

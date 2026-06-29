@@ -107,3 +107,10 @@
 - 增强品牌风格一致性。
 
 一轮训练不一定只能有一个目标，但主目标应该明确。其他目标可以作为旁观测或副作用记录，而不能喧宾夺主。
+
+## 引用
+
+- [`训练目标`](../concepts/core/005-training-target.md)
+- [`行为`](../concepts/core/002-行为.md)
+- [`训练方向`](../concepts/core/006-training-direction.md)
+- [`训练信号`](../concepts/core/004-训练信号.md)

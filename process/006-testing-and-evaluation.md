@@ -42,3 +42,10 @@
 测试只能说明：在当前测试集、当前模型、当前工具环境和当前评估标准下，上下文表现达到了预期范围。
 
 如果测试样本过少、测试维度混杂、评估标准不清晰，测试结果很容易变成主观感觉，而不是有效证据。
+
+## 引用
+
+- [`训练目标`](../concepts/core/005-training-target.md)
+- [`训练方向`](../concepts/core/006-training-direction.md)
+- [`训练信号`](../concepts/core/004-训练信号.md)
+- [`checkpoint`](005-training.md#checkpoint)
