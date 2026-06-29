@@ -17,9 +17,9 @@
 
 ## 目录
 
-- [01 数据集准备](01-dataset-preparation.md)
-- [02 训练目标](02-training-targets.md)
-- [03 训练方向与数据标注](03-training-direction-and-labeling.md)
-- [04 训练计划与参数](04-training-plan-and-parameters.md)
-- [05 训练](05-training.md)
-- [06 测试与评估](06-testing-and-evaluation.md)
+- [001 数据集准备](001-dataset-preparation.md)
+- [002 训练目标](002-training-targets.md)
+- [003 训练方向与数据标注](003-training-direction-and-labeling.md)
+- [004 训练计划与参数](004-training-plan-and-parameters.md)
+- [005 训练](005-training.md)
+- [006 测试与评估](006-testing-and-evaluation.md)

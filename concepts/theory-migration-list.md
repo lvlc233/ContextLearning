@@ -35,10 +35,10 @@
 
 | 概念 | 当前理解 | 当前落点 | 状态 |
 |---|---|---|---|
-| 偏好形成集 | 已参与规则形成的样本不能再强证明泛化能力。 | `process/06-testing-and-evaluation.md` | 已在流程层出现 |
-| 未见测试集 | 未参与规则形成的样本用于检查上下文修改是否泛化。 | `process/06-testing-and-evaluation.md` | 已在流程层出现 |
-| 单维测试 | 每轮优先测试一个主要维度，避免结果不可解释。 | `process/06-testing-and-evaluation.md` | 已在流程层出现 |
-| 正交测试与条件测试 | 独立测试不能默认依赖另一个能力已经达标；如果依赖，需要显式说明条件。 | `process/06-testing-and-evaluation.md` | 已在流程层出现 |
+| 偏好形成集 | 已参与规则形成的样本不能再强证明泛化能力。 | `process/006-testing-and-evaluation.md` | 已在流程层出现 |
+| 未见测试集 | 未参与规则形成的样本用于检查上下文修改是否泛化。 | `process/006-testing-and-evaluation.md` | 已在流程层出现 |
+| 单维测试 | 每轮优先测试一个主要维度，避免结果不可解释。 | `process/006-testing-and-evaluation.md` | 已在流程层出现 |
+| 正交测试与条件测试 | 独立测试不能默认依赖另一个能力已经达标；如果依赖，需要显式说明条件。 | `process/006-testing-and-evaluation.md` | 已在流程层出现 |
 
 ## 流程层待抽象
 
@@ -46,11 +46,11 @@
 
 | 来源 | 可抽象内容 | 当前处理 |
 |---|---|---|
-| `process/01-dataset-preparation.md` | 数据单位、训练集、测试集、标注集、偏好形成集的边界。 | 先保留在流程层 |
-| `process/02-training-targets.md` | 训练目标来自偏好，目标需要落到可观察行为。 | 已部分迁入 `concepts/core/005-training-target.md` |
-| `process/03-training-direction-and-labeling.md` | 自然语言标注、优化漂移、偏好信号转规则。 | 与训练信号章节合并处理 |
-| `process/04-training-plan-and-parameters.md` | 训练计划、参数、轮次、版本对照等上下文训练控制项。 | 先保留在流程层 |
-| `process/05-training.md` | 后训练类似偏好微调或专家校准，属于训练章节内的偏好校准内容。 | 暂留流程层，证据不足时不迁移 |
+| `process/001-dataset-preparation.md` | 数据单位、训练集、测试集、标注集、偏好形成集的边界。 | 先保留在流程层 |
+| `process/002-training-targets.md` | 训练目标来自偏好，目标需要落到可观察行为。 | 已部分迁入 `concepts/core/005-training-target.md` |
+| `process/003-training-direction-and-labeling.md` | 自然语言标注、优化漂移、偏好信号转规则。 | 与训练信号章节合并处理 |
+| `process/004-training-plan-and-parameters.md` | 训练计划、参数、轮次、版本对照等上下文训练控制项。 | 先保留在流程层 |
+| `process/005-training.md` | 后训练类似偏好微调或专家校准，属于训练章节内的偏好校准内容。 | 暂留流程层，证据不足时不迁移 |
 
 ## 已归档不迁移
 
@@ -72,6 +72,6 @@
 
 | 内容 | 原因 |
 |---|---|
-| checkpoint 理论化 | 当前更像流程管理与版本保存，先保留在 `process/05-training.md`。 |
+| checkpoint 理论化 | 当前更像流程管理与版本保存，先保留在 `process/005-training.md`。 |
 | 轻量模型缩放边界 | 当前更像测试策略，先保留在测试流程中。 |
 | 动态上下文学习 | 当前项目主要处理静态上下文学习，动态方向只保留入口，不展开。 |
