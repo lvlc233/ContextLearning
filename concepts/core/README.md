@@ -13,3 +13,4 @@
 | `训练信号` | 运行、标注、测试或版本对比中产生的判断依据。 | [004-训练信号.md](004-训练信号.md) |
 | `训练目标` | 希望上下文最终引发的可观察行为。 | [005-training-target.md](005-training-target.md) |
 | `训练方向` | 判断一次输出或修改更接近目标还是更偏离目标的标准。 | [006-training-direction.md](006-training-direction.md) |
+| `数据集与样本划分` | 按用途组织样本、记录和材料的边界方式。 | [007-dataset-and-sample-partition.md](007-dataset-and-sample-partition.md) |

@@ -48,4 +48,5 @@
 - [`训练目标`](../concepts/core/005-training-target.md)
 - [`训练方向`](../concepts/core/006-training-direction.md)
 - [`训练信号`](../concepts/core/004-训练信号.md)
+- [`数据集与样本划分`](../concepts/core/007-dataset-and-sample-partition.md)
 - [`checkpoint`](005-training.md#checkpoint)
