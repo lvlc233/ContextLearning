@@ -13,14 +13,9 @@
 | 上下文训练 | 与`上下文学习`基本相同，但更强调训练阶段中对上下文进行修改、测试、反馈和迭代的过程。 | - | [core/001-上下文学习 L21](core/001-context-learning.md) |
 | 上下文/上下文信息 | 被模型加载并影响模型行为的信息，可以包括 system prompt、skill、memory、plan creator、tool info 等。 | “use english” | [core/001-上下文学习 L31-L37](core/001-context-learning.md) |
 | 上下文空间 | 指承载上下文信息的载体中，所有可被选择、修改、删除、扩展、采样或组合的逻辑区域。 | 一份 skill 中所有实际的可以操作区域（通常是整个文件夹所涉及的区域）。 | [core/001-上下文学习](core/001-context-learning.md) |
-| 上下文环境 | 待补：上下文被加载、运行和产生效果时所处的模型、工具、任务与约束条件。 | - | [core/03-上下文环境](core/03上下文环境.md) |
-
-| 行为 | 待补：上下文希望影响的可观察输出、判断、选择或执行方式。 | - | [core/002-行为](core/002-行为.md) |
-
-
-
 | Agent 运行环境 | Agent 运行所在的环境，例如 sandbox、harness 等。 | sandbox、harness | [core/001-上下文学习](core/001-context-learning.md) |
 | 运行引擎 | Agent 如何运行的机制或范式，例如 ReAct、loop、dynamic workflows 等。 | ReAct、loop、dynamic workflows | [core/001-上下文学习](core/001-context-learning.md) |
+| Agent 行为 |  `Agent行为` 指的不只是 LLM调度工具的过程，而是指 “模型在指定`运行环境`中运行时所执行的动作集合，包括“思考的输出”、“派遣subagent的方案”、“和用户交互方式”....这些都是 `Agent 行为`| 进行并行检索时派遣 subagent。 | [core/002-行为](core/002-行为.md) |
 
 
 ## 核心
