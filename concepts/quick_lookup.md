@@ -10,7 +10,7 @@
 | 上下文学习 | `上下文学习` 是 Agent 领域中围绕上下文内容分析与迭代展开的研究领域。它研究的是系统如何不依赖模型参数训练，而是通过组织、使用、分析与迭代 `上下文信息`，使上下文逐步形成对 Agent 行为的稳定影响。 | - | [001-上下文学习 L55](001-上下文学习.md#L55) |
 | 静态上下文学习 | 生成与使用不依赖运行状态的上下文学习；上下文通常作为相对固定的材料被加载，例如 skill、memory。 | skill、memory | null |
 | 动态上下文学习 | TODO：运行过程中产生内容变化的上下文学习方向，当前仅保留入口，尚未展开。 | todo plan | null |
-| 上下文/上下文信息 | 被模型或 Agent 系统加载，并可能影响 Agent 行为的信息，可以包括 system prompt、skill、memory、plan creator、tool info 等。 | “use english” | null |
+| 上下文/上下文信息 | 被模型或 Agent 系统加载，并影响 Agent 行为的信息，可以包括 system prompt、skill、memory、plan creator、tool info 等。 | “use english” | null |
 | 上下文空间 | 指承载上下文信息的载体中，所有可被选择、修改、删除、扩展、采样或组合的逻辑区域。 | 一份 skill 中所有实际的可以操作区域（通常是整个文件夹所涉及的区域）。 | null |
 | 上下文污染 | `上下文污染` 指在 `上下文空间` 中存在会干扰上下文正常发挥作用的 `上下文信息`。污染信息不一定只是错误信息，冗余无效信息、错误定义、冲突规则，甚至与当前任务无关的信息，都可能导致 Agent 表现变差，这种情况就叫上下文污染。 | - | null |
 | Agent 运行环境 | Agent 运行所在的环境，例如 sandbox、harness 等。 | sandbox、harness | null |
